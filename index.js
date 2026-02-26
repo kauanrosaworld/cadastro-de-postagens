@@ -34,10 +34,10 @@ db.sequelize.authenticate()
   console.log('Erro na conexão:',err)
 });
 
-db.sequelize.sync()
+/* db.sequelize.sync()
   .then(()=>{
     console.log('Tabelas Criadas!');
-  })
+  }) */
 
 
 app.listen(8000, function () {
